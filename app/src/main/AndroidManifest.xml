@@ -24,6 +24,10 @@
             android:name="com.example.dhruv.livenyc1.CameraList"
             android:label="@string/title_activity_camera_list" >
         </activity>
+        <activity
+            android:name="com.example.dhruv.livenyc1.Feed"
+            android:label="@string/title_activity_feed" >
+        </activity>
     </application>
 
 </manifest>
