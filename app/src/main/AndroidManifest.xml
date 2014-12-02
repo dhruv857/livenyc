@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dhruv.livenyc1" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -27,6 +29,10 @@
         <activity
             android:name="com.example.dhruv.livenyc1.Feed"
             android:label="@string/title_activity_feed" >
+        </activity>
+        <activity
+            android:name="com.example.dhruv.livenyc1.Rerror"
+            android:label="@string/title_activity_rerror" >
         </activity>
     </application>
 

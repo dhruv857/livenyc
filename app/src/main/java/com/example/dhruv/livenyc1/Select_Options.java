@@ -1,16 +1,16 @@
 package com.example.dhruv.livenyc1;
 
 import android.app.Activity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
-
-
-
+import android.widget.Toast;
 
 
 public class Select_Options extends Activity {
@@ -22,7 +22,8 @@ public class Select_Options extends Activity {
         
         
         Button cameraa = (Button)findViewById(R.id.cbutton);
-        Button settin = (Button)findViewById(R.id.settings_b);
+        Button settin = (Button)findViewById(R.id.setting);
+        Button error = (Button)findViewById(R.id.rerror);
         
         /*cameraa.setOnClickListener((v) -> {
 
@@ -49,12 +50,34 @@ public class Select_Options extends Activity {
 
                                       }
                                   });
+
+
+
+
             //Intent se = new Intent(Select_Options.this, Settings.class);
             //startActivity(se);
         //});
         
         
         
+    }
+
+    public void sendFeedback(View v) {
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"xf90360n@pace.edu", "dhruv.scorpio@gmail.com","weihuang023@yahoo.com"});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Feedback of LiveCam");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "What do you think?");
+        try {
+            startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+            finish();
+            Log.i("Finished sending email...", "");
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(Select_Options.this,
+                    "There is no email client installed.", Toast.LENGTH_SHORT).show();
+        }
+
     }
 
 

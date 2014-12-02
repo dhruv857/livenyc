@@ -18,8 +18,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Settings"
-        android:id="@+id/settings_b"
+        android:id="@+id/setting"
         android:layout_below="@+id/cbutton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Error"
+        android:id="@+id/rerror"
+        android:layout_below="@+id/setting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:clickable="true"
+        android:onClick="sendFeedback"/>
 </RelativeLayout>

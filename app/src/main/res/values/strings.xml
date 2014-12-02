@@ -7,5 +7,6 @@
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_camera_list">CameraList</string>
     <string name="title_activity_feed">Feed</string>
+    <string name="title_activity_rerror">Rerror</string>
 
 </resources>
