@@ -22,7 +22,7 @@ public class Select_Options extends Activity {
         
         
         Button cameraa = (Button)findViewById(R.id.cbutton);
-        Button settin = (Button)findViewById(R.id.setting);
+        //Button settin = (Button)findViewById(R.id.setting);
         Button error = (Button)findViewById(R.id.rerror);
         
         /*cameraa.setOnClickListener((v) -> {
@@ -42,14 +42,14 @@ public class Select_Options extends Activity {
             }
         });
         
-        settin.setOnClickListener(new OnClickListener() {
+        /*settin.setOnClickListener(new OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
                                           Intent se = new Intent(Select_Options.this, Settings.class);
                                           startActivity(se);
 
                                       }
-                                  });
+                                  });*/
 
 
 
@@ -76,6 +76,7 @@ public class Select_Options extends Activity {
         } catch (android.content.ActivityNotFoundException ex) {
             Toast.makeText(Select_Options.this,
                     "There is no email client installed.", Toast.LENGTH_SHORT).show();
+            
         }
 
     }
