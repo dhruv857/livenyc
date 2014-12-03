@@ -13,7 +13,11 @@
         android:id="@+id/cbutton"
         android:layout_marginTop="92dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/rerror" />
+        android:layout_alignStart="@+id/rerror"
+        android:height="50dp"
+        android:width="200dp"
+        android:visibility="visible"
+        android:typeface="sans" />
 
     <Button
         android:layout_width="wrap_content"
@@ -24,5 +28,7 @@
         android:onClick="sendFeedback"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
+        android:layout_marginBottom="73dp"
+        android:width="200dp"
+        android:height="50dp" />
 </RelativeLayout>

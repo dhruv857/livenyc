@@ -76,7 +76,7 @@ public class Select_Options extends Activity {
         } catch (android.content.ActivityNotFoundException ex) {
             Toast.makeText(Select_Options.this,
                     "There is no email client installed.", Toast.LENGTH_SHORT).show();
-            
+
         }
 
     }
