@@ -8,7 +8,7 @@
 
 ### Ideal Design
 -----
-View Street Cameras Around NYC(Legal), User are able to look at differet street with Live Cameras Feeds, with real time traffic information they are able to avoid the traffic jam, and reduce risk on the road.  This is way for users have a better understand the road condition when they are traveling thoughtout the city. 
+View Street Cameras Around NYC(Legal), Users are able to look at differet street with Live Cameras Feeds, with real time traffic information they are able to avoid the traffic jam, and reduce risk on the road.  This is way for users have a better understand the road condition when they are traveling thoughtout the city. 
 
 ####Feature Addition Pending: 
 -----
