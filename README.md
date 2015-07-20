@@ -1,6 +1,6 @@
 #LiveNYC
 ------
-![My image](username.github.com/repository/img/image.jpg)
+![My image](github.com/dhruv857/livenyc/blob/master/LiveCameras.png)
 ### Developed By  
 ------
 * Dhruvil Gandhi
