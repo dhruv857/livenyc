@@ -1,9 +1,9 @@
 #LiveNYC
 
 ### Developed By  
-..* Dhruvil Gandhi
-..* Xing Fang
-..* Wei Huang
+* Dhruvil Gandhi
+* Xing Fang
+* Wei Huang
 
 
 View Street Cameras Around NYC(Legal)
