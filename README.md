@@ -1,5 +1,5 @@
-livenyc
-=======
+LiveNYC
+==============================================================================
 Developed By  Dhruvil Gandhi
               Xing Fang
               Wei Huang
