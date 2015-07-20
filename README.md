@@ -15,7 +15,7 @@ View Street Cameras Around NYC(Legal), Users are able to look at differet street
 -----
 ## User Cases
 -----
-## User Experience 
+## User Experiences 
 -----
 ### Product Backlog
 * Phase 1
